@@ -1,74 +1,42 @@
+@media screen and (max-width: 800px) and (min-width: 250px){
+  
+
 #sticky-social-meadia{
-    margin:0;
-    padding:0;
-    position:fixed;
-    top:0;
-    left:40px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap:10px;
+    left:20px;
 }
 #sticky-social-meadia #line-gauche{
-    width: 4px;
-    height: 532px;
-    background-color: #f2cef27b;
-}
-#sticky-social-meadia #line-droite{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    height: 340px;
 }
 #sticky-social-meadia #line-droite #line{
-    width: 4px;
-    height: 350px;
-    background-color: #f2cef27b;
+    height: 200px;
 }
 #sticky-social-meadia #line-droite #line-bouton-reseaux{
-    min-height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    transition: all 0.5s ease-in-out;
-}
-#sticky-social-meadia #line-droite #line-bouton-reseaux a img:hover{
-    transform: scale(1.15);
-    filter: invert(100%) brightness(300%) sepia(200%);
+    min-height: 150px;
 }
 
 /*BALCK PANTHER WAKANADA FOREVER*/
 header #welcome-banner{
-    margin:0;
-    padding:0 0 0 200px;
-    width:100%;
-    color:white;
-    display: flex;
+    padding:0 0 0 80px;
+    width: 80%;
+    flex-direction: column;
     align-items: center;
 }
 header #welcome-banner #welcome-left{
-    max-width: 500px;
+    max-width: 400px;
+    text-align: center;
 }
 
 header #welcome-banner #welcome-left #black-panther{
     margin:0 0 10px 0;
-  font-size: 60px;
-  font-family: Panthera;
-  color:#f2cef298;
-  letter-spacing: 2px;
+    font-size: 45px;
 }
 header #welcome-banner #welcome-left #wakanda-forever{
     margin: 0 0 30px 0;
-    font-family: BEYNO;
-    font-size:32px;
-    color:#f2cef298;
+    font-size:22px;
 }
 header #welcome-banner #welcome-left #welcom-description{
-    font-size: 16px;
-}
-header #welcome-banner #welcome-left #welcom-description a,.slide-text a{
-    color: #ffffff;
-    text-decoration: none;
+    font-size: 14px;
+    max-width: 300px;
 }
 
 header #welcome-banner #welcome-left #welcom-description a::after, .slide-text a::after{
@@ -77,35 +45,29 @@ header #welcome-banner #welcome-left #welcom-description a::after, .slide-text a
     height: 1.5px;
     display: block;
     background-color: #fff;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 header #welcome-banner #welcome-right img{
-    max-width: 60vw;
+    margin-top: 30px;
+    max-width: 80vw;
 }
 /* DEBUT DE STYLE DE MAIN*/
-main{
-    padding:0;
-    color:#ffffff;
-}
 main #slide-secondar-characters{
-    margin:0 0 100px 7%;
-    padding: 0 0 0 20px;
-    height: 270px ;
-    width:92%;
-    background-color: #021740;
-    display: flex;
-    position:relative;
-}
-main #slide-secondar-characters .one-slide img.one-slide-image{
-    cursor: pointer;
-    transition:all ease-in 0.5s;
-}
-main #slide-secondar-characters .one-slide img.one-slide-image:hover{
-    transform: scale(1.2);
+    margin:0 7% 100px 0;
+    padding: 0  50px;
+    height: 2000px;
+    width:100%;
+    z-index: -1;
 }
 main #slide-secondar-characters .one-slide{
     display: flex;
+    flex-direction: column;
 }
-
+main #slide-secondar-characters .one-slide img{
+    width: 10px;
+}
 main #slide-secondar-characters .one-slide .one-slide-text{
     padding: 30px 20px 0 20px;
 }
@@ -294,4 +256,6 @@ article#contact-form div#contact-form-wrapper form button:hover{
 }
 article#contact-form div#contact-form-wrapper form button:active{
     filter: drop-shadow(0 0 20px #021740);
+}
+
 }

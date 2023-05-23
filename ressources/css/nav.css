@@ -37,6 +37,10 @@ nav{
 }
 nav img{
     height: 30px;
+    transition: all 0.4s ease-in-out;
+}
+nav img:hover{
+    filter: invert(50%) sepia(110%) hue-rotate(290deg) saturate(4);
 }
 nav .nav-menu{
     min-width:33%;
