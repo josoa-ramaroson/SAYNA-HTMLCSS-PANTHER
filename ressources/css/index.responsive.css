@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) and (min-width: 250px){
+@media screen and (max-width: 900px) and (min-width: 250px){
   
 
 #sticky-social-meadia{
@@ -28,27 +28,24 @@ header #welcome-banner #welcome-left{
 
 header #welcome-banner #welcome-left #black-panther{
     margin:0 0 10px 0;
-    font-size: 45px;
+    font-size: 60px;
 }
 header #welcome-banner #welcome-left #wakanda-forever{
     margin: 0 0 30px 0;
-    font-size:22px;
+    font-size:32px;
 }
 header #welcome-banner #welcome-left #welcom-description{
-    font-size: 14px;
-    max-width: 300px;
+    font-size: 16px;
+    max-width: 400px;
 }
 
-header #welcome-banner #welcome-left #welcom-description a::after, .slide-text a::after{
-    content: '';
-    width:80px;
-    height: 1.5px;
-    display: block;
-    background-color: #fff;
+header #welcome-banner #welcome-left #welcom-description a::after,.slide-text a::after {
+    margin-bottom: 10px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
 }
+
 header #welcome-banner #welcome-right img{
     margin-top: 30px;
     max-width: 80vw;
@@ -56,78 +53,44 @@ header #welcome-banner #welcome-right img{
 /* DEBUT DE STYLE DE MAIN*/
 main #slide-secondar-characters{
     margin:0 7% 100px 0;
-    padding: 0  50px;
-    height: 2000px;
-    width:100%;
+    padding: 20px 50px;
+    height: 1500px;
     z-index: -1;
-}
-main #slide-secondar-characters .one-slide{
-    display: flex;
     flex-direction: column;
 }
-main #slide-secondar-characters .one-slide img{
-    width: 10px;
+main #slide-secondar-characters .one-slide{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+main #slide-secondar-characters .one-slide img{
+    width: 250px;
+}
+
 main #slide-secondar-characters .one-slide .one-slide-text{
     padding: 30px 20px 0 20px;
+    text-align: center;
 }
-main #slide-secondar-characters .one-slide .slide-title{
-    margin:0 0 10px 0;
-    font-size:24px;
-    font-family:BEYNO;
-    color: #9E91B7;
-}
+
 main #slide-secondar-characters .one-slide .slide-text{
-    font-size: 14px;
+    font-size: 16px;
 }
 main #slide-secondar-characters #arrow-btn{
-    padding:5px;
-    height: 20px;
-    width:20px;
-    font-family: GEYNO;
-    text-align: center;
-    line-height: 20px;
-    border-radius: 100px;   
-    background-color: #021740;
-    position:absolute;
-    top:50%;
-    right:4%;
-    transform: translateY(-50%);
+    display: none;
 }
 .slide-text a::after{
     width:70px;
 }
-
-
 /* SECTION DESCRIPTION ET BIBLIOGRAPHIE DU PRINCE*/
 article#main-character{
-    margin:80px 0 100px 7%;
-    display: flex;
-    justify-content: space-around;
+    margin:0 10%;
+    flex-direction: column;
 }
 article#main-character #left-section{
-    max-width:48%;
+    max-width:95%;
 }
 article#main-character #left-section article.left-article{
     margin-bottom: 50px;
-}
-article#main-character #left-section article.left-article h2{
-    margin:0 0 20px 0;
-    font-size: 32px;
-    font-family: BEYNO;
-    color: #9E91B7;
-}
-article#main-character #left-section article.left-article p{
-    margin: 0 0 20px 0;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: justify;
-}
-article#main-character #right-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 }
 article#main-character #right-section section#t-chala{
     padding:0;
@@ -136,7 +99,7 @@ article#main-character #right-section section#t-chala{
     height:900px;
     border-radius: 10px;
     color:#000;
-    transform: translateY(-45%);
+    transform: translateY(-30%);
     z-index:-1;
 }
 article#main-character #right-section section#t-chala div#t-chala-wrapper{
